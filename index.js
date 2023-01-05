@@ -115,7 +115,7 @@ function start() {
         }
 
         return (
-            bot.sendMessage(chatId, 'я не понимаю вас'),
+            bot.sendMessage(chatId, 'я не понимаю вас :('),
             await bot.sendAudio(chatId, './music/error.mp3')
         )
 
