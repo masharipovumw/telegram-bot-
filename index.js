@@ -126,7 +126,7 @@ function start() {
         if (data === '/again') {
             return startGame(chatId)
         }
-        if (data !== chats[chatId]) {
+        if (data != chats[chatId]) {
             return bot.sendMessage(
                 chatId,
                 `жаль, что ты не смог найти ${chats[chatId]}`,
